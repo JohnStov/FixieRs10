@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>WinHill.Fixie</id>
+        <version>1.0.0</version>
+        <title>Fixie Test Support for ReSharper 10</title>
+        <authors>John Stovin</authors>
+        <owners>John Stovin</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A unit test provider for Fixie Discovers and runs Fixie tests.</description>
+        <summary>A unit test provider for Fixie</summary>
+        <releaseNotes>Support for ReSharper 10.0 EAP 3</releaseNotes>
+        <copyright>Copyright 2015 John Stovin</copyright>
+        <tags>resharper unittest fixie</tags>
+        <dependencies>
+            <dependency id="Wave" version="[4.0]" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="packages\Fixie.1.0.0.29\lib\net45\Fixie.dll" target="DotFiles\Fixie.dll" />
+        <file src="FixieRs10\bin\Debug\FixieRs10.dll" target="DotFiles\FixieRs10.dll" />
+    </files>
+</package>
