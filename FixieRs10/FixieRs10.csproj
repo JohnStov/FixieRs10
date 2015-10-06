@@ -161,9 +161,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AssemblyRegistrar.cs" />
     <Compile Include="FixieMetadataExplorer.cs" />
-    <Compile Include="FixiePsiFileExplorer.cs" />
+    <Compile Include="FixieTestElementsSource.cs" />
+    <Compile Include="FixieTestProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ZoneMarker.cs" />
   </ItemGroup>

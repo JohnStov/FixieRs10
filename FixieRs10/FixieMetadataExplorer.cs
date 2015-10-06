@@ -7,10 +7,6 @@ namespace FixieRs10
 {
     public class FixieMetadataExplorer
     {
-        public FixieMetadataExplorer()
-        {
-        }
-
         public void ExploreAssembly(
             IProject project, 
             IMetadataAssembly assembly, 

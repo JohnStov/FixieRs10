@@ -5,7 +5,5 @@ namespace FixieRs10
     [ZoneMarker]
     public class ZoneMarker
     {
-        public ZoneMarker()
-        { }
     }
 }
