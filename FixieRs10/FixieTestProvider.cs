@@ -8,7 +8,7 @@ using JetBrains.ReSharper.UnitTestFramework;
 namespace FixieRs10
 {
     [UnitTestProvider, UsedImplicitly]
-    public class FixieTestProvider : IUnitTestProvider, IDynamicUnitTestProvider
+    public class FixieTestProvider : IUnitTestProvider
     {
         public bool IsElementOfKind(IDeclaredElement declaredElement, UnitTestElementKind elementKind)
         {
@@ -30,7 +30,7 @@ namespace FixieRs10
             throw new NotImplementedException();
         }
 
-        public string ID => "ID";
+        public string ID => "Fixie";
 
         public string Name => "Fixie";
 
