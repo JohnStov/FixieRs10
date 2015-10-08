@@ -1,4 +1,5 @@
 ﻿using System.Threading;
+using Fixie.Execution;
 using JetBrains.Metadata.Reader.API;
 using JetBrains.ProjectModel;
 using JetBrains.ReSharper.UnitTestFramework;
@@ -13,6 +14,8 @@ namespace FixieRs10
             IUnitTestElementsObserver observer,
             CancellationToken cancellationToken)
         {
+            var environment = new ExecutionEnvironment(assembly.Location.FullPath);
+            var methodGroups = environment.DiscoverTestMethodGroups(null);
         }
     }
 }
